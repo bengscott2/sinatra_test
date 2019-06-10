@@ -20,6 +20,6 @@ end
 
 get '/named-cat' do
   p params[:name]
-  @name_sample = params[:name]
+  @name = params[:name]
   erb(:index)
 end
